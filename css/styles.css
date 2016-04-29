@@ -2,29 +2,35 @@ body{
   font-family: 'karla', sans-serif;
  /*padding-top:85px;*/
 }
-
+header ul li a{
+  font-size: 1.4em;
+}
 .navbar{
-    margin-bottom: 0px;
-    padding: 30px 15px;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+  margin-bottom:0px;
+  padding: 5px 15px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+@media (max-width: 400px){
+  .navbar-header{
+   postion:relative;
+  }
+  .navbar img {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto;
+  }
 }
 
-.navbar-inverse .navbar-nav > li > a {
-    color: #bbb;
+.navbar-inverse .navbar-nav>li>a{
+  color: #bbbbbb;
 }
 
 .cbp-af-header-shrink{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    opacity: 0.5;
-}
-
-#lightbox ul li{
-    float: left;
-    padding: 50px;
-    margin: 0px 20px 20px 0;
-    list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  opacity: 0.90;
 }
 
 .fill-screen{
@@ -32,15 +38,70 @@ body{
   background-position: center;
 }
 
+.fixed-attachment{
+  background-attachment: fixed;
+}
+@media (max-width:1024px){
+  .fixed-attachment{
+    background-attachment:scroll;
+  }
+}
+
+
+.main-row{
+  position: relative;
+  min-height: 300px;
+}
+.main-section-img{
+  position: absolute;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  webkit-transform: translate(-50%, -50%);
+}
+
+footer{
+  background-color: #333;
+  color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.shade{
+   background-color: #dddddd;
+}
+
 .text-banner{
   text-align: center;
   margin: 40px 20px; 
 }
 
-footer{
-    background-color: #333;
-    color: #ddd;
-    padding: 20px;
-    text-align: center;
+.text-banner h2{
+  font-size: 45px;
 }
+
+.text-banner p{
+  font-size: 18px;
+}
+
+.project-section{
+  margin: 50px;
+}
+
+.project-sub{
+  text-align: center;
+}
+
+.project-sub img{
+  width: 150px;
+  height: 150px;
+}
+
+.contact-me{
+  margin: 25px;
+  text-align: center;
+}
+
 
