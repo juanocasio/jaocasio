@@ -11,10 +11,11 @@ html {
 
 body{
   font-family: 'karla', sans-serif;
+  font-size: 18px;
  /*padding-top:85px;*/
 }
 header ul li a{
-  font-size: 1.4em;
+  font-size: 105%;
 }
 .navbar{
   margin-bottom:0px;
@@ -86,15 +87,11 @@ footer{
 
 .text-banner{
   text-align: center;
-  margin: 40px 20px; 
+  margin: 20px 20px; 
 }
 
 .text-banner h2{
-  font-size: 45px;
-}
-
-.text-banner p{
-  font-size: 18px;
+  font-size: 220%;
 }
 
 .project-section{
