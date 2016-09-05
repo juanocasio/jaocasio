@@ -111,3 +111,8 @@ footer{
   margin: 25px;
   text-align: center;
 }
+
+.project-box {
+  border: 1px solid black;
+  text-decoration: none;
+}
