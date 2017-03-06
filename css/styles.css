@@ -39,6 +39,16 @@ header ul li a{
   color: #bbb;
 }
 
+.logo{
+  height: 70px;
+  width: auto;
+}
+
+.pagelogo{
+  height: 200px;
+  width: auto;
+}
+
 .cbp-af-header-shrink{
   padding-top: 5px;
   padding-bottom: 5px;
